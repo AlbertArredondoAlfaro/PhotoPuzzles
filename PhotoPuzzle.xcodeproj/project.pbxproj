@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059DFCB57D3D5737D2E28829 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E66A2967A26DB0DF0AFB9 /* ConfettiView.swift */; };
+		0934392F7F81BF307982337F /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928BEC12BAA2BDDCD1C7C4B /* AdMobManager.swift */; };
+		0946D2FE67BAF1796B4BE699 /* PuzzleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0316488E20E1854E9E587F9 /* PuzzleGame.swift */; };
+		0C7A65625AC4C04671F7FEA5 /* PhotoPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E5FAB3A64F83751BB9C39 /* PhotoPuzzleApp.swift */; };
+		13A4E2D2A0783EC52EFD6B57 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B125F2A6EDE9A1203D1AF13 /* CameraPicker.swift */; };
+		2C8F0A4E51EF70B0CC77E433 /* ScoreStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C531CC1C13CCADE3EA7DE2B /* ScoreStore.swift */; };
+		2EB8294D56BA0930ED835290 /* daily_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B55902088AE484095E2B928 /* daily_1.png */; };
+		2FBECEA82C4D220346F1AFA1 /* daily_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4019AE2460E2ABE6024A589E /* daily_2.png */; };
+		3588347660AE347B4B7B43A7 /* ShareImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221F6926D109F8A90A73F27 /* ShareImageRenderer.swift */; };
+		5641D128124C27952CE3C1F4 /* daily.json in Resources */ = {isa = PBXBuildFile; fileRef = 717A14BFDFBC8DCDAFDBE49F /* daily.json */; };
+		5DD64EBADEBDCCEC0BD46AE3 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E5367692E030B680261E15 /* UserSettings.swift */; };
+		616C90476F67D81E8A8C11DC /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D8BBB4B6B9F738343606B8 /* Tile.swift */; };
+		6E733BF6CA6C8551E0766618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AFDAE893B69B58A89E3B5B /* Assets.xcassets */; };
+		76BD2B486781BC4F09E0CF8B /* daily_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDD19EF5D682E9F0B37D989 /* daily_4.png */; };
+		85A1020DCA5E66EC8FDC7B72 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570F66EED0003EB0D948F538 /* SoundPlayer.swift */; };
+		860FB183F4F08A9E37EAB19B /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2240216B60159D521B489E3 /* Difficulty.swift */; };
+		A5DA7AC42D06060C4C47F3BD /* daily_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AF112C20E1637163791D19C /* daily_3.png */; };
+		A7AFCE1E6F6A39AACCC6930E /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFE534C8DB736FC3F64248 /* BannerAdView.swift */; };
+		A9ED8A9900870C15A20FDFCB /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F73C9999975423C79ECFE0 /* TimeFormatter.swift */; };
+		ADBD35FFD31787BFA8EDA88E /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = B6F784703A030957FA999C2D /* GoogleMobileAds */; };
+		AF069FDD0D78E033DB5DC095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DEBE96C34F71E83BCD89B /* ContentView.swift */; };
+		AFD99A56264D115BF7060832 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD04CE5BA2D3E24EE7DB093 /* Localizable.strings */; };
+		B11F09FEDD98539FB892DF84 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360EB43678A06C5DD72EA5B /* PuzzleView.swift */; };
+		B6AC4FF8F09B4BC1E7747C09 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AC8F01268B313DD3F47058 /* ImageFilter.swift */; };
+		B9B64B6FAB5404D2AFC32228 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542E21EF952A04FCBE47D37 /* ImageProcessing.swift */; };
+		BAED80A21BCA9E66BF4D14B4 /* PuzzleTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F212ADAEA6F5A6B443BDF13C /* PuzzleTileView.swift */; };
+		C04620ABF18D38DCE90BD81E /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7953CA663FBD66ADDFF15 /* Config.plist */; };
+		CE629C97D5E792F9AAC599B5 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87F1519E0A4C71176CCE346D /* win.wav */; };
+		D49F8585C1D1663C407F7020 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572785AE17C5C65B1F3A73ED /* ActivityView.swift */; };
+		D73E825C47C08C03042EE531 /* daily_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 84103D18154D9E4C9374C48F /* daily_5.png */; };
+		DA01496AE5E543D076CC08BC /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC88DFA78FA30FD691AEA1 /* GameResult.swift */; };
+		DE42D9AA1FD6C4FA96F45159 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F08B599AE30FA7946E838 /* move.wav */; };
+		DF22CABD9F928A73DA482062 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B0421A049869DC7653D114 /* GameConfig.swift */; };
+		DF366EFCA2A822CCB0E6291B /* AdConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6EB2416157FA452A0387 /* AdConfig.swift */; };
+		F08E222D0D03C6297C59F562 /* DailyPuzzleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC133E9728B61A2138829 /* DailyPuzzleService.swift */; };
+		F0CC068ABB311B8C6E29E08E /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109856126E8DA06D71E5943 /* StoreManager.swift */; };
+		FA059961DFBE0DB3A5C0A9AB /* DailyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61553DEC477230F11053CA /* DailyImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A61553DEC477230F11053CA /* DailyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyImage.swift; sourceTree = "<group>"; };
+		1C531CC1C13CCADE3EA7DE2B /* ScoreStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStore.swift; sourceTree = "<group>"; };
+		28F73C9999975423C79ECFE0 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		2B55902088AE484095E2B928 /* daily_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daily_1.png; sourceTree = "<group>"; };
+		382A8EAAF965A37449944CF4 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		393E66A2967A26DB0DF0AFB9 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		3F6BC133E9728B61A2138829 /* DailyPuzzleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPuzzleService.swift; sourceTree = "<group>"; };
+		4019AE2460E2ABE6024A589E /* daily_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daily_2.png; sourceTree = "<group>"; };
+		4AF112C20E1637163791D19C /* daily_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daily_3.png; sourceTree = "<group>"; };
+		5542E21EF952A04FCBE47D37 /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
+		570F66EED0003EB0D948F538 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		572785AE17C5C65B1F3A73ED /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		5CCFE534C8DB736FC3F64248 /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		6A8F08B599AE30FA7946E838 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		6B125F2A6EDE9A1203D1AF13 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		717A14BFDFBC8DCDAFDBE49F /* daily.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = daily.json; sourceTree = "<group>"; };
+		71DDD4D23C9036E77FD6F420 /* PhotoPuzzle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PhotoPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8322400D5AFF8878ABFB0280 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84103D18154D9E4C9374C48F /* daily_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daily_5.png; sourceTree = "<group>"; };
+		87F1519E0A4C71176CCE346D /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		89D8BBB4B6B9F738343606B8 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		8CA7953CA663FBD66ADDFF15 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Config.plist; sourceTree = "<group>"; };
+		9109856126E8DA06D71E5943 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		91AC8F01268B313DD3F47058 /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		96BC88DFA78FA30FD691AEA1 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		9C3E5FAB3A64F83751BB9C39 /* PhotoPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPuzzleApp.swift; sourceTree = "<group>"; };
+		9CB79360DC2AA2011DCAB804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2240216B60159D521B489E3 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		B360EB43678A06C5DD72EA5B /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		B4AFDAE893B69B58A89E3B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70DEBE96C34F71E83BCD89B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7B0421A049869DC7653D114 /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		C9E5367692E030B680261E15 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		CF6E6EB2416157FA452A0387 /* AdConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfig.swift; sourceTree = "<group>"; };
+		D221F6926D109F8A90A73F27 /* ShareImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageRenderer.swift; sourceTree = "<group>"; };
+		D928BEC12BAA2BDDCD1C7C4B /* AdMobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
+		DFDD19EF5D682E9F0B37D989 /* daily_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daily_4.png; sourceTree = "<group>"; };
+		EEE29B6DCD1B7AEBAC335281 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F0316488E20E1854E9E587F9 /* PuzzleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGame.swift; sourceTree = "<group>"; };
+		F212ADAEA6F5A6B443BDF13C /* PuzzleTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleTileView.swift; sourceTree = "<group>"; };
+		F4F3B5AAD666CF3984FBF98C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB82DB5CFF51CD0AB17F5BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBD35FFD31787BFA8EDA88E /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0A8CBBB68D27F6D8492845 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E5FAB3A64F83751BB9C39 /* PhotoPuzzleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		153A956D0EA39577CB7AB0C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71DDD4D23C9036E77FD6F420 /* PhotoPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16854657B461BC8187B6E7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				572785AE17C5C65B1F3A73ED /* ActivityView.swift */,
+				6B125F2A6EDE9A1203D1AF13 /* CameraPicker.swift */,
+				393E66A2967A26DB0DF0AFB9 /* ConfettiView.swift */,
+				C70DEBE96C34F71E83BCD89B /* ContentView.swift */,
+				F212ADAEA6F5A6B443BDF13C /* PuzzleTileView.swift */,
+				B360EB43678A06C5DD72EA5B /* PuzzleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24A692A7C703F80F938501A3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6A8F08B599AE30FA7946E838 /* move.wav */,
+				87F1519E0A4C71176CCE346D /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		43E9B944A9012E69A07895BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A61553DEC477230F11053CA /* DailyImage.swift */,
+				B2240216B60159D521B489E3 /* Difficulty.swift */,
+				C7B0421A049869DC7653D114 /* GameConfig.swift */,
+				96BC88DFA78FA30FD691AEA1 /* GameResult.swift */,
+				91AC8F01268B313DD3F47058 /* ImageFilter.swift */,
+				F0316488E20E1854E9E587F9 /* PuzzleGame.swift */,
+				89D8BBB4B6B9F738343606B8 /* Tile.swift */,
+				C9E5367692E030B680261E15 /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A8AFAEAA974F62072832922 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4AFDAE893B69B58A89E3B5B /* Assets.xcassets */,
+				8CA7953CA663FBD66ADDFF15 /* Config.plist */,
+				717A14BFDFBC8DCDAFDBE49F /* daily.json */,
+				3FD04CE5BA2D3E24EE7DB093 /* Localizable.strings */,
+				A5194B132B7A44F19ED99FB8 /* DailyImages */,
+				24A692A7C703F80F938501A3 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75EBDAA64B7AD01D44141365 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				9109856126E8DA06D71E5943 /* StoreManager.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		A5194B132B7A44F19ED99FB8 /* DailyImages */ = {
+			isa = PBXGroup;
+			children = (
+				2B55902088AE484095E2B928 /* daily_1.png */,
+				4019AE2460E2ABE6024A589E /* daily_2.png */,
+				4AF112C20E1637163791D19C /* daily_3.png */,
+				DFDD19EF5D682E9F0B37D989 /* daily_4.png */,
+				84103D18154D9E4C9374C48F /* daily_5.png */,
+			);
+			path = DailyImages;
+			sourceTree = "<group>";
+		};
+		A7A451D8463309FA4019580B = {
+			isa = PBXGroup;
+			children = (
+				5A8AFAEAA974F62072832922 /* Resources */,
+				FE78DC7E0A85F330F7384947 /* Sources */,
+				153A956D0EA39577CB7AB0C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF80AAFA803D83BE816668E1 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E6EB2416157FA452A0387 /* AdConfig.swift */,
+				D928BEC12BAA2BDDCD1C7C4B /* AdMobManager.swift */,
+				5CCFE534C8DB736FC3F64248 /* BannerAdView.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		D9169C32602F1CFCAE312A89 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BC133E9728B61A2138829 /* DailyPuzzleService.swift */,
+				5542E21EF952A04FCBE47D37 /* ImageProcessing.swift */,
+				1C531CC1C13CCADE3EA7DE2B /* ScoreStore.swift */,
+				D221F6926D109F8A90A73F27 /* ShareImageRenderer.swift */,
+				570F66EED0003EB0D948F538 /* SoundPlayer.swift */,
+				28F73C9999975423C79ECFE0 /* TimeFormatter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FE78DC7E0A85F330F7384947 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CF80AAFA803D83BE816668E1 /* Ads */,
+				0F0A8CBBB68D27F6D8492845 /* App */,
+				75EBDAA64B7AD01D44141365 /* IAP */,
+				43E9B944A9012E69A07895BC /* Models */,
+				D9169C32602F1CFCAE312A89 /* Services */,
+				16854657B461BC8187B6E7BF /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD579617CA94BDC61266D2C /* PhotoPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113DEFC67775C8DD15DC36D4 /* Build configuration list for PBXNativeTarget "PhotoPuzzle" */;
+			buildPhases = (
+				A7F4356BC7E2A018577D4216 /* Sources */,
+				3DC821A98F12F3B377EBFE31 /* Resources */,
+				6FB82DB5CFF51CD0AB17F5BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPuzzle;
+			packageProductDependencies = (
+				B6F784703A030957FA999C2D /* GoogleMobileAds */,
+			);
+			productName = PhotoPuzzle;
+			productReference = 71DDD4D23C9036E77FD6F420 /* PhotoPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C4DC1B7B2E9E0143FD6E659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6BD579617CA94BDC61266D2C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 649D4BEEC7E87275C9BD1CA2 /* Build configuration list for PBXProject "PhotoPuzzle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ca,
+				de,
+				en,
+				es,
+				fr,
+			);
+			mainGroup = A7A451D8463309FA4019580B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				27CC7150790FD0DD770664DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD579617CA94BDC61266D2C /* PhotoPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC821A98F12F3B377EBFE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E733BF6CA6C8551E0766618 /* Assets.xcassets in Resources */,
+				C04620ABF18D38DCE90BD81E /* Config.plist in Resources */,
+				AFD99A56264D115BF7060832 /* Localizable.strings in Resources */,
+				5641D128124C27952CE3C1F4 /* daily.json in Resources */,
+				2EB8294D56BA0930ED835290 /* daily_1.png in Resources */,
+				2FBECEA82C4D220346F1AFA1 /* daily_2.png in Resources */,
+				A5DA7AC42D06060C4C47F3BD /* daily_3.png in Resources */,
+				76BD2B486781BC4F09E0CF8B /* daily_4.png in Resources */,
+				D73E825C47C08C03042EE531 /* daily_5.png in Resources */,
+				DE42D9AA1FD6C4FA96F45159 /* move.wav in Resources */,
+				CE629C97D5E792F9AAC599B5 /* win.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F4356BC7E2A018577D4216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49F8585C1D1663C407F7020 /* ActivityView.swift in Sources */,
+				DF366EFCA2A822CCB0E6291B /* AdConfig.swift in Sources */,
+				0934392F7F81BF307982337F /* AdMobManager.swift in Sources */,
+				A7AFCE1E6F6A39AACCC6930E /* BannerAdView.swift in Sources */,
+				13A4E2D2A0783EC52EFD6B57 /* CameraPicker.swift in Sources */,
+				059DFCB57D3D5737D2E28829 /* ConfettiView.swift in Sources */,
+				AF069FDD0D78E033DB5DC095 /* ContentView.swift in Sources */,
+				FA059961DFBE0DB3A5C0A9AB /* DailyImage.swift in Sources */,
+				F08E222D0D03C6297C59F562 /* DailyPuzzleService.swift in Sources */,
+				860FB183F4F08A9E37EAB19B /* Difficulty.swift in Sources */,
+				DF22CABD9F928A73DA482062 /* GameConfig.swift in Sources */,
+				DA01496AE5E543D076CC08BC /* GameResult.swift in Sources */,
+				B6AC4FF8F09B4BC1E7747C09 /* ImageFilter.swift in Sources */,
+				B9B64B6FAB5404D2AFC32228 /* ImageProcessing.swift in Sources */,
+				0C7A65625AC4C04671F7FEA5 /* PhotoPuzzleApp.swift in Sources */,
+				0946D2FE67BAF1796B4BE699 /* PuzzleGame.swift in Sources */,
+				BAED80A21BCA9E66BF4D14B4 /* PuzzleTileView.swift in Sources */,
+				B11F09FEDD98539FB892DF84 /* PuzzleView.swift in Sources */,
+				2C8F0A4E51EF70B0CC77E433 /* ScoreStore.swift in Sources */,
+				3588347660AE347B4B7B43A7 /* ShareImageRenderer.swift in Sources */,
+				85A1020DCA5E66EC8FDC7B72 /* SoundPlayer.swift in Sources */,
+				F0CC068ABB311B8C6E29E08E /* StoreManager.swift in Sources */,
+				616C90476F67D81E8A8C11DC /* Tile.swift in Sources */,
+				A9ED8A9900870C15A20FDFCB /* TimeFormatter.swift in Sources */,
+				5DD64EBADEBDCCEC0BD46AE3 /* UserSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD04CE5BA2D3E24EE7DB093 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382A8EAAF965A37449944CF4 /* ca */,
+				F4F3B5AAD666CF3984FBF98C /* de */,
+				9CB79360DC2AA2011DCAB804 /* en */,
+				EEE29B6DCD1B7AEBAC335281 /* es */,
+				8322400D5AFF8878ABFB0280 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20E992A2A58C2B825C4EFD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		533ADEE1565152B305D90A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idreamstudio.photopuzzle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80C07B0559EC470F77B4C1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE03C4EC2BAD76D40886955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idreamstudio.photopuzzle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113DEFC67775C8DD15DC36D4 /* Build configuration list for PBXNativeTarget "PhotoPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533ADEE1565152B305D90A7D /* Debug */,
+				EE03C4EC2BAD76D40886955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		649D4BEEC7E87275C9BD1CA2 /* Build configuration list for PBXProject "PhotoPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C07B0559EC470F77B4C1AF /* Debug */,
+				20E992A2A58C2B825C4EFD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27CC7150790FD0DD770664DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6F784703A030957FA999C2D /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27CC7150790FD0DD770664DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6C4DC1B7B2E9E0143FD6E659 /* Project object */;
+}
